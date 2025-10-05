@@ -1,0 +1,64 @@
+{
+  "selected_day": "2025-10-04",
+  "linkedin": {
+    "visibility": "PUBLIC",
+    "api_key": "",
+    "fixed_description": "¿Interesado en desarrollo, ciberseguridad y tecnología?\nSuscríbite a mi newsletter: https://www.sergioalmagre.com/newsletter",
+    "comment": "Aquí puedes ver el resumen en video generado automáticamente!",
+    "youtube_in_comment": "0",
+    "post_urn": "urn:li:share:7377362367275429888",
+    "prompt": "Redacta un post en español para LinkedIn con la siguiente estructura:\n\n        1. TITULAR llamativo con 1 o 2 emojis al inicio y al final (máx. 90 carácteres).\n        2. Breve introducción explicando la noticia o idea principal en lenguaje claro y directo.\n        3. Bloque \"Lo nuevo 👇\" con viñetas que resuman las novedades o puntos clave (incluye cifras si están disponibles).\n        4. Bloque \"Beneficios / Cambios técnicos / Impacto\" con viñetas cortas (usa ✅, 🔹, 📊 u otros emojis útiles).\n        5. Añade 1-2 frases sobre la REACCIÓN de la empresa u organización implicada (ej: medidas tomadas, comunicado oficial).\n        6. Cierre reflexivo con 1 idea final y una invitación a comentar o reflexionar (ej: \"¿Qué opinas?\", \"¿Ya lo estás usando?\").\n        7. Opcionalmente, añade un 💡 consejo práctico para la comunidad.\n\n        Reglas:\n        - No uses negritas ni Markdown, LinkedIn no las soporta.\n        - Escribe en tono profesional pero cercano.\n        - Usa frases cortas y fáciles de leer en scroll.\n        - Evita hashtags, salvo 2-3 muy relevantes al final. Escríbelos correctamente en minúsculas y sin espacios.\n        - No abuses de emojis: solo 1 por viñeta máximo y que aporten valor.\n\n        Texto base:"
+  },
+  "youtube": {
+    "visibility": "UNLISTED",
+    "playlist": "DevsNews",
+    "fixed_description": "🚀 Este video ha sido generado automaticamente en base a mi post en linkedin.\nSi te interesa este sistema automatizado podrás encontrarme aquí www.sergioalmagre.com 🌐",
+    "url": "",
+    "narration": "Redacta un guion en español para un video corto de aproximadamente 1 minuto a partir del post de LinkedIn siguiente.\n\nEstructura:\n\nFRASE INICIAL narrada en estilo storytelling para captar atención. Puede ser una pregunta, una afirmación contundente, una mini-escena cotidiana o una comparación visual.\n\nExplica las 2-3 ideas clave de forma clara, en frases cortas y fáciles de narrar.\n\nIncluye ejemplos simples, comparaciones o metáforas breves para hacerlo más visual y cercano.\n\nCierra con una idea memorable, inspiradora o con una pregunta reflexiva que deje pensando al espectador.\n\nReglas IMPORTANTES:\n\nEl guion DEBE tener entre 100 y 120 palabras. Cuenta las palabras antes de responder y ajusta el texto si no cumple.\n\nLenguaje oral, cercano y natural (como si lo contaras a un amigo).\n\nNo usar listas largas ni detalles técnicos complejos.\n\nNo añadir hashtags, enlaces ni formatos Markdown.\n\nPrioriza el ritmo: frases cortas, fáciles de leer en voz alta.\n\nUsa máximo 2 emojis en todo el texto, solo si aportan.\n\nEvita repetir siempre la misma fórmula de inicio o cierre.\n\nTexto base (ya resumido del post de LinkedIn):"
+  },
+  "groq": {
+    "api_key": "",
+    "model_post": "meta-llama/llama-4-scout-17b-16e-instruct",
+    "model_video": "meta-llama/llama-4-scout-17b-16e-instruct"
+  },
+  "deepl": {
+    "api_key": ""
+  },
+  "pexels": {
+    "api_key": ""
+  },
+  "elevenlabs": {
+    "api_key_1": "",
+    "api_key_2": "",
+    "api_key_3": "",
+    "api_key_4": "",
+    "api_key_5": "",
+    "api_key_6": "",
+    "voice_id": "iXa2i9eYvgmNMRQRCwqO",
+    "model_id": "eleven_multilingual_v2",
+    "stability": "0.35",
+    "similarity": "0.8",
+    "style": "0.0",
+    "speaker_boost": "1"
+  },
+  "gemini": {
+    "api_key": "",
+    "url_model": "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-image-preview:generateContent",
+    "imagen_cut": "0",
+    "prompt": "You are creating a single image (PNG) for a social-media thumbnail. Aim for a creative, cinematic, illustrated look with strong depth and energy.\n\nOUTPUT REQUIREMENTS\n- Size: default portrait for feed. If the context clearly indicates YouTube, use 1280×720; if Stories/Reels/Shorts, 1080×1920.\n- Text: include EXACTLY ONE Spanish headline (6–8 words). It must be error-free Spanish (with correct accents), neutral tone, and the ONLY text in the image.\n- If using ALL CAPS, keep accents (ÁÉÍÓÚÑ). If uncertain about a word, choose a simpler synonym to avoid typos.\n- No logos, trademarks, watermarks, or real UI.\n\nART DIRECTION (creative style)\n- Composition: rule-of-thirds, asymmetrical layout. Large headline near the focal area, not centered; strong soft glow behind the text; subtle edge vignette for focus.\n- Visual: a symbolic, story-driven **illustration** inspired by the context (NOT literal brand assets). Hybrid 2D/3D look with neon accents, rim lighting, volumetric glow, depth of field, motion streaks/particles for energy.\n- Background: rich sci-fi/tech abstract environment (or thematic abstraction inferred from the post) with layered shapes and light arcs—no recognizable brand icons.\n- Style: premium, cinematic, polished; avoid flat/clip-art.\n- Color: deep cool base (ink/midnight) + one vivid accent color that contrasts strongly and can highlight one keyword of the headline.\n\nTYPOGRAPHY\n- Bold sans/neo-grotesque, ultra-large (≈35–45% of canvas height), tight tracking (-1% to -2%), micro drop-shadow for legibility. Optical alignment with the illustrated focal point.\n\nCONSTRAINTS\n- Do NOT add subtitles, captions, numbers, emojis, or extra text.\n- Do NOT invent facts or names beyond the context.\n\nDELIVERABLE\n- Render the final image as PNG.\n\nnegative prompt: extra text, spelling mistakes, missing accents, logos, watermarks, brand icons, real UI, stocky flat clip-art, low contrast, dull colors, harsh shadows, plastic 3D, overbusy background, pixelation, noise artifacts, bevel/emboss effects, cartoonish naive style\n\nContext (use ONLY for inspiration; do NOT display this text in the image):"
+  },
+  "schedule": {
+    "is_scheduled": "1",
+    "date": "2025-09-27 11:00"
+  },
+  "automated": {
+    "extraer_contenido": "0",
+    "generar_post_linkedin": "0",
+    "generar_imagen": "0",
+    "publicar_post_linkedin": "0",
+    "publicar_comentario": "0",
+    "generar_narracion": "0",
+    "generar_video": "0",
+    "publicar_video_youtube": "0"
+  }
+}
